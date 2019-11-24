@@ -1,0 +1,9 @@
+version: '3.5'
+
+services:
+
+  dind:
+    build:
+      context: tools/dind/
+    image: morningspace/lab-dind
+    privileged: true
