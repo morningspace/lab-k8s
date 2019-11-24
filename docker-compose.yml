@@ -7,3 +7,8 @@ services:
       context: tools/dind/
     image: morningspace/lab-dind
     privileged: true
+
+  sleeper:
+    build:
+      context: tools/sleeper/
+    image: morningspace/lab-sleeper
